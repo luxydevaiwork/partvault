@@ -1,0 +1,67 @@
+name: partvault
+description: Save and organize measurements, models, and spare parts for your home.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Database locale ---
+  sqflite: ^2.3.3
+  path: ^1.9.0
+
+  # --- State Management ---
+  flutter_riverpod: ^2.5.1
+
+  # --- Navigazione ---
+  go_router: ^14.2.7
+
+  # --- Fotocamera e immagini ---
+  image_picker: ^1.1.2
+  flutter_image_compress: ^2.3.0
+
+  # --- OCR on-device (Google ML Kit, offline) ---
+  google_mlkit_text_recognition: ^0.13.1
+
+  # --- Barcode / QR Scanner ---
+  mobile_scanner: ^5.2.3
+
+  # --- QR Code generation ---
+  qr_flutter: ^4.1.0
+
+  # --- Local notifications (reminders) ---
+  flutter_local_notifications: ^17.2.4
+
+  # --- NFC ---
+  nfc_manager: ^3.3.0
+
+  # --- Home Screen Widget ---
+  home_widget: ^0.6.0
+
+  # --- File system ---
+  path_provider: ^2.1.4
+
+  # --- Biometric lock ---
+  local_auth: ^2.3.0
+
+  # --- File picker (import backup) ---
+  file_picker: ^8.1.2
+
+  # --- Utility ---
+  uuid: ^4.4.2
+  share_plus: ^10.0.2
+  shared_preferences: ^2.3.2
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
